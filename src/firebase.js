@@ -4,15 +4,17 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA03myBfThTiV9c7-kAa7CFhCVMPGVtVy4",
-  authDomain: "newchat-e54e1.firebaseapp.com",
-  projectId: "newchat-e54e1",
-  storageBucket: "newchat-e54e1.appspot.com",
-  messagingSenderId: "449071349761",
-  appId: "1:449071349761:web:ef1b4158a6b5b9f16f0000"
+  apiKey: "AIzaSyBbatAeUYRWIykdLWb4neSQngMhImYkHyk",
+  authDomain: "newchat2022-ddd11.firebaseapp.com",
+  projectId: "newchat2022-ddd11",
+  storageBucket: "newchat2022-ddd11.appspot.com",
+  messagingSenderId: "578040873995",
+  appId: "1:578040873995:web:f41ccdf1aea8f774d8330e",
+  measurementId: "G-P88DBDPLRP"
 };
 
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
 export const storage = getStorage();
 export const db = getFirestore();
+
